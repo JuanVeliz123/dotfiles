@@ -26,16 +26,22 @@ layout {
     }
   }
   tab split_direction="vertical" {
-    pane
+    pane stacked=true {
+      pane
+      pane
+    }
     pane stacked=true {
       pane
       pane
     }
   }
   tab split_direction="vertical" {
-    pane command="k9s"
     pane stacked=true {
-      pane command="k9s"
+      pane
+      pane
+    }
+    pane stacked=true {
+      pane
       pane
     }
   }
