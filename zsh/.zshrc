@@ -55,7 +55,9 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Path
-path+=('/home/jveliz@egs.local/.local/bin')
+path+=("${HOME}/.local/bin")
+path+=("${HOME}/.cargo/bin")
+path+=("${HOME}/.local/share/bob/nvim-bin")
 
 # Aliases
 alias ls='eza --color'
@@ -64,5 +66,5 @@ alias c='clear'
 
 # Shell integrations
 source <(fzf --zsh)
-eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/theme.omp.json)"
