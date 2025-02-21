@@ -44,9 +44,7 @@
         },
         {
           "background": "#33DD2D",
-          "background_templates": [
-            "{{ if gt .Code 0 }}#f1184c{{ end }}"
-          ],
+          "background_templates": ["{{ if gt .Code 0 }}#f1184c{{ end }}"],
           "foreground": "#242424",
           "powerline_symbol": "\ue0b0",
           "properties": {
@@ -88,15 +86,6 @@
           "style": "powerline",
           "template": " \ue235 {{ .Venv }} ",
           "type": "python"
-        },
-        {
-          "background": "#003543",
-          "foreground": "#fff",
-          "invert_powerline": true,
-          "powerline_symbol": "\ue0b2",
-          "style": "powerline",
-          "template": "<#fff> \ue641 </>{{ .CurrentDate | date .Format }} ",
-          "type": "time"
         }
       ],
       "type": "prompt"
