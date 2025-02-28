@@ -60,7 +60,7 @@ path+=("${HOME}/.cargo/bin")
 path+=("${HOME}/.local/share/bob/nvim-bin")
 
 # Aliases
-alias ls='eza --color'
+alias ls='eza'
 alias v='nvim'
 alias c='clear'
 
