@@ -63,6 +63,7 @@ path+=("${HOME}/.local/share/bob/nvim-bin")
 alias ls='eza'
 alias v='nvim'
 alias c='clear'
+alias lg='lazygit'
 
 # Shell integrations
 source <(fzf --zsh)
