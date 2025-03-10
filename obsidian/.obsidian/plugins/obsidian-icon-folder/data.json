@@ -6,8 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiListTodo",
-      "LiAlarmCheck"
+      "LiAtom",
+      "LiCode2",
+      "LiGithub",
+      "LiGamepad2",
+      "LiTv2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,5 +35,11 @@
     "useInternalPlugins": false
   },
   "reminders": "LiAlarmCheck",
-  "bucket": "LiListTodo"
+  "bucket": "LiListTodo",
+  "bucket/to-watch.md": "LiTv2",
+  "bucket/to-play.md": "LiGamepad2",
+  "useful repos": "LiGithub",
+  "useful repos/Dev.md": "LiCode2",
+  "useful repos/Games.md": "LiGamepad2",
+  "nifoni": "LiAtom"
 }
