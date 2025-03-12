@@ -1,5 +1,5 @@
 return {
-  "AstroNvim/astrocommunity",
-  { import = "astrocommunity.colorscheme.catppuccin" },
-  -- import/override with your plugins folder
+	"AstroNvim/astrocommunity",
+	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
+	-- import/override with your plugins folder
 }
