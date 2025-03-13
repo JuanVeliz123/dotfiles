@@ -13,6 +13,7 @@ return {
 			"typescript",
 			"java",
 			"python",
+			"sql",
 			-- add more arguments for adding more treesitter parsers
 		},
 	},
