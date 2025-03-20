@@ -33,6 +33,8 @@ bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
+bindkey "^A" backward-word
+bindkey "^E" forward-word
 
 # History
 HISTSIZE=5000
