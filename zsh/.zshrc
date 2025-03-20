@@ -33,8 +33,8 @@ bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
-bindkey "^A" backward-word
-bindkey "^E" forward-word
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 
 # History
 HISTSIZE=5000
@@ -71,3 +71,4 @@ alias lg='lazygit'
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/theme.omp.json)"
+
