@@ -11,9 +11,15 @@ return {
       ensure_installed = {
         -- install language servers
         "lua-language-server",
+        "gopls",
+        "rust-analyzer",
+        "typescript-language-server",
 
         -- install formatters
         "stylua",
+        "eslint_d",
+        "gofumpt",
+        "goimports",
 
         -- install debuggers
         "debugpy",
